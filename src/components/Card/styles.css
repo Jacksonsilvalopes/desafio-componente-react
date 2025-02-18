@@ -1,0 +1,35 @@
+.dsc-card {
+
+
+    min-width: 280px;
+    max-width: 746px;
+    width: 100%;
+    max-height: 352px;
+    min-height: 248px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid var(--dsc-color-two);
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.dsc-card img {
+    min-width: 280px;
+    max-width: 391px;
+    width: 100%;
+}
+
+.dsc-card p {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--dsc-color-four);
+}
+
+@media (max-width: 400px) {
+    .dsc-card p  {
+        font-size: 16px;       
+       
+    } 
+}

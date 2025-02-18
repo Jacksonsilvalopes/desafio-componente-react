@@ -1,0 +1,21 @@
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;   
+    justify-content: center; 
+    height: 70px; 
+    background-color: var(--dsc-color-two);   
+}
+
+header h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--dsc-color-three)
+}
+
+@media (max-width: 400px) {
+    header h1 {
+        font-size: 20px;       
+       
+    }
+}

@@ -1,0 +1,27 @@
+.dsc-comments{
+    max-width: 960px;
+    min-width: 280px; 
+    width: 100%;
+    min-height: 74px;
+    background-color: var(--dsc-color-three);
+    border: 1px solid var(--dsc-color-two);
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+.dsc-comments p{
+    margin:0 20px ;
+    font-size: 16px;
+    color: var(--dsc-color-two);
+}
+
+@media (min-width: 320px) {
+    .dsc-comments {
+        width: 87.5%;
+    }
+    .dsc-comments p{
+      padding: 25px 0;
+       
+    }
+}
